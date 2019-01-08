@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-crowdriff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tslint config for crowdriff",
   "main": "index.js",
   "scripts": {

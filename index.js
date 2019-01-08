@@ -1,7 +1,8 @@
+const path = require('path');
 module.exports = {
   rulesDirectory: ['tslint-plugin-prettier'],
   rules: {
-    prettier: [true, '.prettierrc.js'],
+    prettier: [true, path.resolve('.prettierrc.js')],
     'interface-name': [true, 'never-prefix'],
     'object-shorthand-properties-first': false,
     'no-implicit-dependencies': false,
